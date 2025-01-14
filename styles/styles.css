@@ -68,6 +68,10 @@ header img {
     cursor: pointer;
 }
 
+#projects ul li {
+    cursor: pointer;
+}
+
 main {
     padding: 2rem;
 }
@@ -89,26 +93,30 @@ ul {
     gap: 1rem;
 }
 
-ul li {
-    display: flex;
-    flex-direction: column; /* Empile les éléments (image, texte) verticalement */
-    align-items: center; /* Centre les éléments horizontalement */
-    justify-content: center; /* Centre les éléments verticalement */
-    max-height: 150px; /* Assure une taille uniforme pour toutes les cases */
-    min-height: 50px;
-    background-color: #1c1c1c;
-    color: #fff;
-    padding: 1rem;
-    border: 1px solid #333;
-    border-radius: 8px;
-    text-align: center;
-    transition: background-color 0.3s, transform 0.3s;
-    cursor: pointer;
-}
+    ul li {
+        display: flex;
+        flex-direction: column; /* Empile les éléments (image, texte) verticalement */
+        align-items: center; /* Centre les éléments horizontalement */
+        justify-content: center; /* Centre les éléments verticalement */
+        max-height: 150px; /* Assure une taille uniforme pour toutes les cases */
+        min-height: 50px;
+        background-color: #1c1c1c;
+        color: #fff;
+        padding: 1rem;
+        border: 1px solid #333;
+        border-radius: 8px;
+        text-align: center;
+        transition: background-color 0.3s, transform 0.3s;
+        cursor: pointer;
+    }
 
-ul li p {
-    font-size: 16px;
-}
+        ul a {
+            text-decoration: none;
+        }
+
+        ul li p {
+            font-size: 16px;
+        }
 
 ul li img {
     width: 50px;
